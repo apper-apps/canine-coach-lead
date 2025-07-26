@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "name": "Basic Obedience Training",
+    "objectives": "Teach fundamental commands including sit, stay, come, down, and heel. Establish clear communication between dog and owner through consistent verbal and hand signals.",
+    "description": "A comprehensive 8-week program designed for dogs of all ages to learn essential commands and proper behavior. Each session focuses on positive reinforcement techniques, building trust and communication between the dog and handler. The program includes homework exercises and progress tracking to ensure consistent improvement throughout the training period.",
+    "createdAt": "2024-01-10T08:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Puppy Socialization",
+    "objectives": "Develop proper social skills with other dogs and humans. Build confidence in various environments and situations while establishing good behavioral foundations.",
+    "description": "Specially designed for puppies aged 8-16 weeks, this program focuses on critical socialization period development. Sessions include controlled interactions with other puppies, exposure to different sounds and surfaces, basic handling exercises, and foundation training for house rules. The goal is to raise well-adjusted, confident adult dogs.",
+    "createdAt": "2024-01-12T10:30:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Advanced Agility Training",
+    "objectives": "Master complex obstacle courses including jumps, tunnels, weave poles, and contact obstacles. Develop speed, accuracy, and strong handler-dog teamwork for competitive performance.",
+    "description": "An intensive program for dogs with solid basic obedience who are ready for athletic challenges. This course builds physical fitness, mental acuity, and the handler-dog bond through progressively challenging agility sequences. Suitable for dogs interested in competition or those needing high-level mental and physical stimulation.",
+    "createdAt": "2024-01-18T13:45:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Behavioral Modification",
+    "objectives": "Address and correct problematic behaviors such as excessive barking, jumping, pulling on leash, or aggression. Replace unwanted behaviors with appropriate alternatives.",
+    "description": "A customized program tailored to each dog's specific behavioral challenges. Using scientifically-proven behavior modification techniques, this program addresses root causes of unwanted behaviors rather than just symptoms. Includes extensive owner education to ensure long-term success and prevent behavior regression.",
+    "createdAt": "2024-02-05T15:20:00Z"
+  }
+]

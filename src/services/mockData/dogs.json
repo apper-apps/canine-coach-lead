@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "name": "Bella",
+    "breed": "Golden Retriever",
+    "age": 2.5,
+    "temperament": "Friendly and energetic, responds well to positive reinforcement. Loves treats and playtime. Sometimes gets distracted by other dogs but generally focuses well during training sessions.",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Max",
+    "breed": "German Shepherd",
+    "age": 4,
+    "temperament": "Intelligent and loyal, highly trainable with strong focus abilities. Can be protective of family members. Works best with consistent commands and structured training approaches.",
+    "createdAt": "2024-01-20T14:15:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Luna",
+    "breed": "Border Collie",
+    "age": 1.5,
+    "temperament": "Extremely intelligent and eager to learn. High energy level requires mental stimulation. Excels at complex commands and problem-solving activities. Can become anxious without proper exercise.",
+    "createdAt": "2024-02-01T09:45:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Rocky",
+    "breed": "Bulldog",
+    "age": 3,
+    "temperament": "Calm and patient, but can be stubborn at times. Responds better to gentle encouragement rather than firm commands. Prefers shorter training sessions due to lower energy levels.",
+    "createdAt": "2024-02-10T16:20:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Daisy",
+    "breed": "Labrador Mix",
+    "age": 0.8,
+    "temperament": "Playful puppy with lots of energy and enthusiasm. Very food motivated which makes training easier. Still learning basic impulse control and socialization with other dogs and people.",
+    "createdAt": "2024-02-25T11:00:00Z"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "dogId": 1,
+    "programId": 1,
+    "date": "2024-03-15T10:00:00Z",
+    "status": "upcoming"
+  },
+  {
+    "Id": 2,
+    "dogId": 2,
+    "programId": 1,
+    "date": "2024-03-12T14:30:00Z",
+    "status": "completed"
+  },
+  {
+    "Id": 3,
+    "dogId": 3,
+    "programId": 3,
+    "date": "2024-03-18T09:00:00Z",
+    "status": "upcoming"
+  },
+  {
+    "Id": 4,
+    "dogId": 5,
+    "programId": 2,
+    "date": "2024-03-10T11:00:00Z",  
+    "status": "completed"
+  },
+  {
+    "Id": 5,
+    "dogId": 4,
+    "programId": 4,
+    "date": "2024-03-08T16:00:00Z",
+    "status": "cancelled"
+  },
+  {
+    "Id": 6,
+    "dogId": 1,
+    "programId": 1,
+    "date": "2024-03-20T10:00:00Z",
+    "status": "upcoming"
+  },
+  {
+    "Id": 7,
+    "dogId": 3,
+    "programId": 3,
+    "date": "2024-03-22T09:00:00Z",
+    "status": "upcoming"
+  },
+  {
+    "Id": 8,
+    "dogId": 2,
+    "programId": 1,
+    "date": "2024-03-05T14:30:00Z",
+    "status": "completed"
+  },
+  {
+    "Id": 9,
+    "dogId": 5,
+    "programId": 2,
+    "date": "2024-03-25T11:00:00Z",
+    "status": "upcoming"
+  },
+  {
+    "Id": 10,
+    "dogId": 4,
+    "programId": 4,
+    "date": "2024-03-28T16:00:00Z",
+    "status": "upcoming"
+  }
+]

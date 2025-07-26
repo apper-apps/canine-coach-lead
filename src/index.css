@@ -1,0 +1,107 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-width: 0;
+    border-style: solid;
+  }
+  
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply font-body text-gray-900 bg-background;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-medium px-6 py-3 rounded-6px transition-all duration-200 shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98];
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-gray-700 font-medium px-6 py-3 rounded-6px border border-gray-300 transition-all duration-200 shadow-sm hover:shadow-md hover:scale-[1.01] active:scale-[0.99];
+  }
+  
+  .card {
+    @apply bg-surface rounded-8px shadow-card hover:shadow-card-hover transition-all duration-250 border border-gray-100;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-4px focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200 bg-white;
+  }
+  
+  .sidebar-item {
+    @apply flex items-center px-4 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-lg transition-all duration-200 cursor-pointer;
+  }
+  
+  .sidebar-item.active {
+    @apply bg-primary-100 text-primary-800 border-l-4 border-primary-600 bg-gradient-to-r from-primary-50 to-transparent;
+  }
+}
+
+/* Toast Styling */
+.Toastify__toast-container {
+  @apply z-[9999];
+}
+
+.Toastify__toast {
+  @apply bg-white shadow-lg border border-gray-200 rounded-8px font-body;
+}
+
+.Toastify__toast--success {
+  @apply border-success bg-gradient-to-r from-green-50 to-white;
+}
+
+.Toastify__toast--error {
+  @apply border-error bg-gradient-to-r from-red-50 to-white;
+}
+
+.Toastify__toast--warning {
+  @apply border-warning bg-gradient-to-r from-yellow-50 to-white;
+}
+
+.Toastify__toast--info {
+  @apply border-info bg-gradient-to-r from-blue-50 to-white;
+}
+
+.Toastify__toast-body {
+  @apply text-gray-800 font-medium;
+}
+
+.Toastify__progress-bar {
+  @apply bg-gradient-to-r from-primary-400 to-primary-600;
+}
+
+/* Loading Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 0px, #e0e0e0 40px, #f0f0f0 80px);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Paw print watermark for sidebar */
+.paw-watermark {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d1fae5' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z'/%3E%3Cpath d='M8 16c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z'/%3E%3Cpath d='M14 16c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z'/%3E%3Cpath d='M6 10c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z'/%3E%3Cpath d='M16 10c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 32px 32px;
+  opacity: 0.1;
+}
