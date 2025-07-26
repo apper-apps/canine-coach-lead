@@ -30,11 +30,9 @@
   .btn-secondary {
     @apply bg-white hover:bg-gray-50 text-gray-700 font-medium px-6 py-3 rounded-6px border border-gray-300 transition-all duration-200 shadow-sm hover:shadow-md hover:scale-[1.01] active:scale-[0.99];
   }
-  
-  .card {
-    @apply bg-surface rounded-8px shadow-card hover:shadow-card-hover transition-all duration-250 border border-gray-100;
+.card {
+    @apply bg-surface rounded-8px shadow-card hover:shadow-card-hover transition-all duration-200 border border-gray-100;
   }
-  
   .input-field {
     @apply w-full px-4 py-3 border border-gray-300 rounded-4px focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200 bg-white;
   }
